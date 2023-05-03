@@ -54,9 +54,11 @@ API for cinema service management on DRF.
 ## 🧾 Features
 - JWT authenticated 🔒
 - Admin panel /admin/
-- /api/doc/swagger/ documentation
 - Creating movies with genres, actors
 - Creating cinema halls
 - Adding movie sessions
 - Managing orders and tickets
 - Filtering movies and movie sessions
+
+## 🕶 Documentation: swagger -  /api/doc/swagger/
+
