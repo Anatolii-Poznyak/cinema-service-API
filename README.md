@@ -1,4 +1,4 @@
-# Dockerizing DRF Cinema
+# Cinema Service API
 
 API for cinema service management on DRF.
 
