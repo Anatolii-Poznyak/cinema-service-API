@@ -60,5 +60,10 @@ API for cinema service management on DRF.
 - Managing orders and tickets
 - Filtering movies and movie sessions
 
-## 🕶 Documentation: swagger -  /api/doc/swagger/
+## 🕶 Documentation: swagger
+```python
+/api/doc/swagger/
+```
+![Screenshot 2023-05-03 at 21 21 56](https://user-images.githubusercontent.com/122725491/236009365-81304874-e44b-42b4-819f-ddf2879c39ee.png)
+
 
