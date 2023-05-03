@@ -2,7 +2,7 @@
 
 API for cinema service management on DRF.
 
-## 💼 Installing using GIT
+## 💾 Installing using GIT
 ```
   git clone https://github.com/Anatolii-Poznyak/cinema-service-API.git
   cd cinema_api
@@ -34,25 +34,24 @@ API for cinema service management on DRF.
 ```
 
 ## 📀 Run with DOCKER
-DOCKER should be installed
+- DOCKER should be installed
 
 ```python
   docker-compose build
   docker-compose up
 ```
 
-Also you can create new admin user. 
+- Also you can create new admin user.
+- Enter container ```python docker exec -it <container_name> bash```, and create in from there.
 
-Enter container ```python docker exec -it <container_name> bash```, and create in from there
 
-
-## 💿 Getting access:
+## 🗝 Getting access:
 ```python
   create user via /api/user/register/
   get access token via /api/user/token/
 ```
 
-## 📀 Features
+## 🧾 Features
 - JWT authenticated 🔒
 - Admin panel /admin/
 - /api/doc/swagger/ documentation
