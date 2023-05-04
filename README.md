@@ -1,16 +1,19 @@
 # Cinema Service API
 
-API for cinema service management on DRF.
+Experience the magic of the movies like never before with powerful Django REST Framework API. 
+Manage your cinema service from user registration to ticket sales and everything in between. 
+Intuitive features for film, actor, genre, movie session management and cinema hall options.
+Streamline your operations and deliver unforgettable cinematic experiences with ease!
 
-## 💾 Installing using GIT
-```
+### 💾 Installing using GIT
+```shell
   git clone https://github.com/Anatolii-Poznyak/cinema-service-API.git
   cd cinema_api
   python -m venv venv
 ```
 
 ### 💻 Linux/macOS:
-```
+```shell
   source venv/bin/activate
   pip install -r requirements.txt
   export DB_HOST=<your db hostname>
@@ -21,7 +24,7 @@ API for cinema service management on DRF.
 ```
 
 ### 🖥 Windows:
-```
+```shell
   venv\Scripts\activate
   pip install -r requirements.txt
   set DB_HOST=<your db hostname>
@@ -32,14 +35,14 @@ API for cinema service management on DRF.
 ```
 
 ### 👆 Then:
-```python
+```shell
   python manage.py migrate
   python manage.py runserver
 ```
-## 📀 Run with DOCKER
+### 📀 Run with DOCKER
 - DOCKER should be installed
 
-```python
+```shell
   docker-compose build
   docker-compose up
 ```
@@ -48,13 +51,13 @@ API for cinema service management on DRF.
 - Enter container ```python docker exec -it <container_name> bash```, and create in from there.
 
 
-## 🗝 Getting access:
-```python
+### 🗝 Getting access:
+```shell
   create user via /api/user/register/
   get access token via /api/user/token/
 ```
 
-## 🧾 Features
+### 🧾 Features
 - JWT authenticated 🔒
 - Admin panel /admin/
 - Creating movies with genres, actors
@@ -63,8 +66,8 @@ API for cinema service management on DRF.
 - Managing orders and tickets
 - Filtering movies and movie sessions
 
-## 🕶 Documentation: swagger
-```python
+### 🕶 Documentation: swagger
+```
 /api/doc/swagger/
 ```
 ![swagger.png](swagger.png)
