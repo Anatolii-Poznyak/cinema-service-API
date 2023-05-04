@@ -34,7 +34,7 @@ Streamline your operations and deliver unforgettable cinematic experiences with 
   set DB_SECRET_KEY=<your secret key>
 ```
 
-### 👆 Then:
+### 👆 After setting .env variables:
 ```shell
   python manage.py migrate
   python manage.py runserver
@@ -47,7 +47,7 @@ Streamline your operations and deliver unforgettable cinematic experiences with 
   docker-compose up
 ```
 
-- Also you can create new admin user.
+- Also, you can create new admin user.
 - Enter container ```python docker exec -it <container_name> bash```, and create in from there.
 
 
