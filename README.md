@@ -39,7 +39,7 @@ Streamline your operations and deliver unforgettable cinematic experiences with 
   python manage.py migrate
   python manage.py runserver
 ```
-### 📀 Run with DOCKER
+### 🐳 Run with DOCKER
 - DOCKER should be installed
 
 ```shell
